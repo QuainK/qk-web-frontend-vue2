@@ -1,6 +1,8 @@
 <template>
   <div id="main">
-    暂时没有内容哦 (=・ω・=) 先康康别的↗
+    <div id="content">
+      <h2>暂时没有内容哦 (=・ω・=) <br>先康康别的↗</h2>
+    </div>
   </div>
 </template>
 

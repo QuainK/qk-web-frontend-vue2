@@ -1,7 +1,9 @@
 <template>
   <div id="main">
-    <h1 id="title">QKWeb</h1>
-    <div id="content">QuainK 的个人网站</div>
+    <div id="content">
+      <h1>QKWeb</h1><br><br><br>
+      <h2>QuainK 的个人网站</h2><br><br><br>
+    </div>
   </div>
 </template>
 

@@ -2,7 +2,7 @@
   <div id="main">
     <div id="title">
       <h2>搜索引擎整合 So</h2>
-      <h3>版本号：3.0.0</h3>
+      <h3>版本号：3.1.0</h3>
     </div>
 
     <div id="content">
@@ -40,15 +40,19 @@
     <div id="log">
       <p>更新日志</p>
       <div class="log-item">
-        <span>版本 3.0.0 日期时间 2020.04.11</span>
+        <span>3.1.0 - 2020.04.20</span>
+        <p>修改文本框样式</p>
+      </div>
+      <div class="log-item">
+        <span>3.0.0 - 2020.04.11</span>
         <p>使用Vue.js重构</p>
       </div>
       <div class="log-item">
-        <span>版本 2.0.0 日期时间 2020.04.08</span>
+        <span>2.0.0 - 2020.04.08</span>
         <p>应用全局风格</p>
       </div>
       <div class="log-item">
-        <span>版本 1.0.0 日期时间 2018.10</span>
+        <span>1.0.0 - 2018.10</span>
         <p>完成基本功能</p>
       </div>
     </div>
@@ -63,6 +67,10 @@
 </script>
 
 <style scoped>
+  #content {
+    background-color: #fff;
+  }
+
   .item-container {
     display: flex;
     display: -webkit-flex;
@@ -90,7 +98,7 @@
     width: 250px;
     height: 2rem;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 5px;
     outline: none;
     padding: 0 .5rem;
@@ -98,11 +106,11 @@
 
   input:hover {
     background-color: #ccc;
-    border: 1px solid #999;
+    border: 2px solid #999;
   }
 
   input:active {
     background-color: #999;
-    border: 1px solid #666;
+    border: 2px solid #666;
   }
 </style>

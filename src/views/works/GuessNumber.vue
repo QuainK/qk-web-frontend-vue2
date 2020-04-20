@@ -2,7 +2,7 @@
   <div id="main">
     <div id="title">
       <h2>猜数 GuessNumber</h2>
-      <h3>3.0.0</h3>
+      <h3>3.1.0</h3>
     </div>
 
     <div id="content">
@@ -18,19 +18,23 @@
     <div id="log">
       <p>更新日志</p>
       <div class="log-item">
-        <span>版本 3.0.0 日期时间 2020.04.11</span>
+        <span>3.1.0 - 2020.04.20</span>
+        <p>修改文本框样式</p>
+      </div>
+      <div class="log-item">
+        <span>3.0.0 - 2020.04.11</span>
         <p>使用Vue.js重构</p>
       </div>
       <div class="log-item">
-        <span>版本 2.0.0 日期时间 2020.04.08</span>
+        <span>2.0.0 - 2020.04.08</span>
         <p>应用全局风格</p>
       </div>
       <div class="log-item">
-        <span>版本 1.0.0 日期时间 2016.08</span>
+        <span>1.0.0 - 2016.08</span>
         <p>0.1.0版本(HTML 4.01)文件丢失，重写1.0.0版本(HTML 5)</p>
       </div>
       <div class="log-item">
-        <span>版本 0.1.0 日期时间 2011.07</span>
+        <span>0.1.0 - 2011.07</span>
         <p>完成基本功能</p>
       </div>
     </div>
@@ -96,6 +100,17 @@
     text-align: center;
     border: 1px solid #999;
     border-radius: 5px;
+    outline: none;
+  }
+
+  input:hover {
+    border: 1px solid #ddd;
+    background-color: #eee;
+  }
+
+  input:active {
+    border: 1px solid #aaa;
+    background-color: #bbb;
   }
 
   /*Chrome、Safari等关闭数字输入框的上下箭头*/
