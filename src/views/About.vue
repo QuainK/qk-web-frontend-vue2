@@ -1,7 +1,7 @@
 <template>
   <div id="main">
     <div id="title">关于</div>
-    <div id="content">
+    <div id="content" class="content-align-center">
       <h1>QKWeb</h1><br><br><br>
       <h2>QuainK 的个人网站</h2>
     </div>

@@ -1,4 +1,3 @@
-<!--公共尾部-->
 <template>
   <div id="footer">
     <a href="https://github.com/QuainK">在 Github 上查看</a>
