@@ -82,7 +82,7 @@
     width: 100px;
     height: 100px;
     border: 1px solid rgba(255, 255, 255, .1);
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 10px 10px 20px #999,
     -10px -10px 20px #ddd;
     transition: box-shadow .2s ease-in-out;
